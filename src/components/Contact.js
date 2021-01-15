@@ -8,8 +8,6 @@ import {
   Typography,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import * as yup from "yup";
-import "./Contact.css";
 import useStyles from "./utils/tools";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";

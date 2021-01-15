@@ -1,5 +1,5 @@
 import { Grid } from "@material-ui/core";
-import { withStyles, makeStyles } from "@material-ui/styles";
+import { withStyles } from "@material-ui/styles";
 
 const GridFix = withStyles(
   {

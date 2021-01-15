@@ -19,7 +19,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MenuIcon from "@material-ui/icons/Menu";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import WorkIcon from "@material-ui/icons/Work";
-import "./App.css";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";

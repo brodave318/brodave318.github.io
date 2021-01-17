@@ -43,67 +43,52 @@ export default function PortThree() {
         </Typography>
         <div className={classes.cardTechLogos}>
           <Tooltip title="HTML5" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
+              alt="HTML5 logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="CSS3" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
+              alt="CSS3 logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="React" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
+              alt="React logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="Alan" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://alan.app/voice/images/branding_page/logo-horizontal/color/alan-logo-horizontal-color.svg?d4703a4b0c224d5a6a725bbd21cb9b16"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://alan.app/voice/images/branding_page/logo-horizontal/color/alan-logo-horizontal-color.svg?d4703a4b0c224d5a6a725bbd21cb9b16"
+              alt="Alan logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="Material-UI" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcrowdin-static.downloads.crowdin.com%2Fimages%2Fproject-logo%2F313933%2Fsmall%2Ff4688031a2cf3127ac08bc3ebaa05194167.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcrowdin-static.downloads.crowdin.com%2Fimages%2Fproject-logo%2F313933%2Fsmall%2Ff4688031a2cf3127ac08bc3ebaa05194167.png&f=1&nofb=1"
+              alt="Material-UI logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="classnames.js" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.rawgit.com%2Ffeross%2Fstandard%2Fmaster%2Fdocs%2Flogos%2Fnpm.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgjermundbjaanes.com%2Fwp-content%2Fuploads%2F2015%2F10%2Fnpm-logo.png&f=1&nofb=1"
+              alt="NPM logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
-          &nbsp;&nbsp;&nbsp;
           <Tooltip title="words-to-numbers.js" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.rawgit.com%2Ffeross%2Fstandard%2Fmaster%2Fdocs%2Flogos%2Fnpm.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgjermundbjaanes.com%2Fwp-content%2Fuploads%2F2015%2F10%2Fnpm-logo.png&f=1&nofb=1"
+              alt="NPM logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </div>

@@ -1,12 +1,10 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import useStyles from "./utils/tools";
 
 export default function Hero() {
   const classes = useStyles();
 
   return (
-    // <Grid container lg={12}>
     <div className={classes.hero}>
       <div className={classes.heroLogo}>
         <div className={classes.heroLogoLT}>&lt;</div>
@@ -29,6 +27,5 @@ export default function Hero() {
         </div>
       </div>
     </div>
-    // </Grid>
   );
 }

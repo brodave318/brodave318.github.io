@@ -129,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "2.5rem",
   },
   portfolioPowerText: { color: "#e3e3e3", fontSize: "1.3rem" },
-  portfolioPowerLogos: { height: "25px", width: "25px" },
+  portfolioPowerLogos: { height: "30px", width: "30px" },
   portfolioDisplay: {
     display: "flex",
     flexDirection: "row",
@@ -152,16 +152,10 @@ const useStyles = makeStyles((theme) => ({
   cardTechLogos: {
     display: "flex",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "space-evenly",
     alignContent: "center",
     paddingTop: "1rem",
     paddingBottom: "1rem",
-  },
-  cardLogo: {
-    objectFit: "contain",
-    width: "1%",
-    flex: 1,
-    alignSelf: "center",
   },
   cardButtons: {
     padding: "30px 0 20px",

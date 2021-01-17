@@ -30,7 +30,7 @@ function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <div>
+    <>
       <AppBar position="fixed" style={{ width: "100%" }}>
         <Toolbar className={classes.navText}>
           <Hidden mdUp>
@@ -123,7 +123,8 @@ function App() {
                   <Tooltip title="Resume" arrow>
                     <Link
                       to={{
-                        pathname: "https://docdro.id/zgAc0lJ",
+                        pathname:
+                          "https://drive.google.com/file/d/1YGFtklnah-6MXPt1MrDLS28ksUGLXky3/view?usp=sharing",
                       }}
                       target="_blank"
                     >
@@ -198,7 +199,8 @@ function App() {
             <Tooltip title="Resume" arrow>
               <Link
                 to={{
-                  pathname: "https://docdro.id/zgAc0lJ",
+                  pathname:
+                    "https://drive.google.com/file/d/1YGFtklnah-6MXPt1MrDLS28ksUGLXky3/view?usp=sharing",
                 }}
                 target="_blank"
               >
@@ -215,7 +217,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </div>
+    </>
   );
 }
 

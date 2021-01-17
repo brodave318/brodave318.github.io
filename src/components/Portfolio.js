@@ -25,55 +25,45 @@ export default function Portfolio() {
         </Grid>
         <Grid item>
           <Tooltip title="HTML5" arrow>
-            <CardMedia
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+          <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
+              alt="HTML5 logo"
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </Grid>
         <Grid item>
           <Tooltip title="CSS3" arrow>
-            <CardMedia
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+          <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
+              alt="CSS3 logo"
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </Grid>
         <Grid item>
           <Tooltip title="React" arrow>
-            <CardMedia
-              image="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
+              alt="React logo"
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </Grid>
         <Grid item>
           <Tooltip title="Material-UI" arrow>
-            <CardMedia
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcrowdin-static.downloads.crowdin.com%2Fimages%2Fproject-logo%2F313933%2Fsmall%2Ff4688031a2cf3127ac08bc3ebaa05194167.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcrowdin-static.downloads.crowdin.com%2Fimages%2Fproject-logo%2F313933%2Fsmall%2Ff4688031a2cf3127ac08bc3ebaa05194167.png&f=1&nofb=1"
+              alt="Material-UI logo"
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </Grid>
         <Grid item>
           <Tooltip title="React-Router" arrow>
-            <CardMedia
-              image="https://miro.medium.com/max/494/1*F1iFV5NTRN9YrAIC2VtFaA.png"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://miro.medium.com/max/494/1*F1iFV5NTRN9YrAIC2VtFaA.png"
+              alt="React-Router logo"
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
@@ -85,7 +75,6 @@ export default function Portfolio() {
           <Grid
             item
             xs={12}
-            // sm={12}
             md={4}
             className={classes.portfolioCardGridItem}
           >
@@ -96,7 +85,6 @@ export default function Portfolio() {
           <Grid
             item
             xs={12}
-            // sm={6}
             md={4}
             className={classes.portfolioCardGridItem}
           >
@@ -107,7 +95,6 @@ export default function Portfolio() {
           <Grid
             item
             xs={12}
-            // sm={6}
             md={4}
             className={classes.portfolioCardGridItem}
           >

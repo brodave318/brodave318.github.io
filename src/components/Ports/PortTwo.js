@@ -39,48 +39,38 @@ export default function PortTwo() {
         </Typography>
         <div className={classes.cardTechLogos}>
           <Tooltip title="HTM5" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2017%2F07%2FHTML5_badge.png&f=1&nofb=1"
+              alt="HTML5 logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="CSS3" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fverekia.com%2F_pages%2Fcss3%2Fintroduction-css3%2Fimg%2Fcss3-logo.png&f=1&nofb=1"
+              alt="CSS3 logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="React" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
+              alt="React logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="Socket.io" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
+              alt="Socket.io logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
           <Tooltip title="Moment.js" arrow>
-            <CardMedia
-              className={classes.cardLogo}
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpuranjayjain.github.io%2Fmd-date-time-picker%2Fimages%2Fmomentjs.png&f=1&nofb=1"
-              component="img"
-              width="30"
-              height="30"
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpuranjayjain.github.io%2Fmd-date-time-picker%2Fimages%2Fmomentjs.png&f=1&nofb=1"
+              alt="Moment.js logo"
+              className={classes.portfolioPowerLogos}
             />
           </Tooltip>
         </div>

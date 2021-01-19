@@ -59,6 +59,13 @@ export default function PortTwo() {
               className={classes.portfolioPowerLogos}
             />
           </Tooltip>
+          <Tooltip title="Node.js" arrow>
+            <img
+              src="https://www.techwell.com/sites/default/files/stories/images/cropped_teasers/Beth%20Romanik/2019/node-js-tutorial.png"
+              alt="Node.js logo"
+              className={classes.portfolioPowerLogos}
+            />
+          </Tooltip>
           <Tooltip title="Socket.io" arrow>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg"
